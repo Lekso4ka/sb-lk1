@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(235, 236, 236);
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #95a5a6;
+    color: #2c3e50;
+  }
+  
+  nav span{
+    margin-left: 20px;
+  }
+  
+  .logo{
+    width: 100px;
+  }
+  
+  .btns button{
+    border: none;
+    background-color: #2c3e50;
+    color: #95a5a6;
+    padding: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.5s ease;
+  }
+  
+  .links{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #bdc3c7;
+}
+
+.links a{
+	width: 100px;
+	height: 100px;
+}
+
+.links a img{
+	width: 100%;
+	height: 100%;
+}
+
+.fa-brands {
+    font-size: 3rem;
+}
+
+.squares{
+	padding: 20px;
+	display: flex;
+}
+
+
+.squares div{
+	font-size: 50px;
+}
+body div {
+    padding: 10px;
+}
+
+.sq_1{
+	background-color: #2980b9;
+    margin-right: 20px;
+}
+.sq_2{
+	background-color: #8e44ad;
+    margin: 40px 20px;
+}
+.sq_3{
+	background-color: #d35400;
+    margin: 10px;
+}
+.sq_4{
+	background-color: #f39c12;
+    margin: 10px 20px 30px 40px;
+}
